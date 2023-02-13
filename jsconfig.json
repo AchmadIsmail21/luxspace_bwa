@@ -1,0 +1,10 @@
+// untuk menyetting import agar tidak seperti ini ./src/.....
+// tetapi biar seperti ini import assets/css/app.css
+// agar lebih memudahkan
+{
+    "compilerOptions": {
+        "baseUrl": "src"
+    },
+    "include": ["src/**/*"],
+    "exclude": ["node_modules"]
+}
